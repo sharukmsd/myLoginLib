@@ -13,7 +13,8 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		61E224222937161F00821F61 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		61E2242629371D0300821F61 /* myLoginLibApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E2242529371D0300821F61 /* myLoginLibApp.swift */; };
 		931DDFDA84C2D85257349FC9 /* Pods_myLoginLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02DE9E63BEF0F8E39E57BBE2 /* Pods_myLoginLib_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +31,7 @@
 /* Begin PBXFileReference section */
 		02DE9E63BEF0F8E39E57BBE2 /* Pods_myLoginLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myLoginLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		192933C10DC3B674D78734ED /* Pods-myLoginLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLoginLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-myLoginLib_Example/Pods-myLoginLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		30CE4B835032B48D11432977 /* myLoginLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = myLoginLib.podspec; path = ../myLoginLib.podspec; sourceTree = "<group>"; };
+		30CE4B835032B48D11432977 /* myLoginLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = myLoginLib.podspec; path = ../myLoginLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3AE0D3CB60A94F01CBE183BB /* Pods_myLoginLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myLoginLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54798FFAC6A6A015CB529776 /* Pods-myLoginLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLoginLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-myLoginLib_Tests/Pods-myLoginLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* myLoginLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myLoginLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,9 +44,10 @@
 		607FACE51AFB9204008FA782 /* myLoginLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myLoginLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6E8CD643DA42AD420E7523B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		61E2242529371D0300821F61 /* myLoginLibApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myLoginLibApp.swift; sourceTree = "<group>"; };
+		6E8CD643DA42AD420E7523B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8C01F9D0386A251E30E3FCC4 /* Pods-myLoginLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLoginLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-myLoginLib_Tests/Pods-myLoginLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EA7F6A3F07609E3F2B33F80F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EA7F6A3F07609E3F2B33F80F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F0B63846EA80601A8783D11C /* Pods-myLoginLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myLoginLib_Example.release.xcconfig"; path = "Target Support Files/Pods-myLoginLib_Example/Pods-myLoginLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +79,6 @@
 				8C01F9D0386A251E30E3FCC4 /* Pods-myLoginLib_Tests.debug.xcconfig */,
 				54798FFAC6A6A015CB529776 /* Pods-myLoginLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -111,6 +112,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				61E2242529371D0300821F61 /* myLoginLibApp.swift */,
 			);
 			name = "Example for myLoginLib";
 			path = myLoginLib;
@@ -227,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -333,6 +336,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				61E2242629371D0300821F61 /* myLoginLibApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +344,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				61E224222937161F00821F61 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myLoginLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myLoginLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -516,6 +522,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -534,6 +541,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
